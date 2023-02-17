@@ -7,7 +7,7 @@
 --><?xml-model href="https://jenkins.tei-c.org/job/TEIP5-dev/lastSuccessfulBuild/artifact/P5/release/xml/tei/odd/p5.nvdl" type="application/xml" schematypens="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0"?><elementSpec xmlns="http://www.tei-c.org/ns/1.0" module="namesdates" ident="langKnowledge">
   <gloss versionDate="2007-07-04" xml:lang="en">language knowledge</gloss>
   <gloss versionDate="2007-12-20" xml:lang="ko">언어 지식</gloss>
-  <gloss versionDate="2023-02-17" xml:lang="es">conocimientos del idioma</gloss>
+  <gloss versionDate="2023-02-17" xml:lang="es">conocimientos de idioma</gloss>
   <gloss versionDate="2008-12-09" xml:lang="fr">connaissances linguistiques</gloss>
   <gloss versionDate="2007-11-06" xml:lang="it">conoscenza della lingua</gloss>
   <desc versionDate="2006-06-21" xml:lang="en">summarizes the state of a person's linguistic knowledge, either as prose or by a list of <gi>langKnown</gi> elements.</desc>
@@ -64,6 +64,10 @@
                         <soCalled>tags</soCalled> as defined in <ref target="http://www.rfc-editor.org/rfc/rfc4646.txt">RFC 4646</ref> or its
                     successor</p>
       </remarks>
+      <remarks versionDate="2023-02-17" xml:lang="es"><p>Solo debería asignarse este atributo si no contiene elementos hijos <gi>langKnown</gi> .Los valores que toma son
+<soCalled>etiquetas</soCalled> de idioma como queda recogido en la directriz <ref target="http://www.rfc-editor.org/rfc/rfc4646.txt">RFC 4646</ref> o
+sucesivas</p>      
+</remarks>
       <remarks versionDate="2023-02-17" xml:lang="es"><p>Solo debería asignarse este atributo si no contiene elementos hijos <gi>langKnown</gi> . Los valores que toma son
 <soCalled>etiquetas</soCalled> de idioma como queda recogido en la directriz <ref target="http://www.rfc-editor.org/rfc/rfc4646.txt">RFC 4646</ref> o
 sucesivas</p>      
